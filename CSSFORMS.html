@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS styling forms </title>
+    <style>
+        a:hover{
+    text-transform:lowercase;
+    color: brown;
+    font-size: 15;
+        }
+
+    .new:hover{
+        background-color:rgb(14, 223, 32);
+    }
+    input[type="submit"]:hover{
+        background-color: rgb(54, 241, 37);
+    }
+    
+
+    div{
+        border: 4px solid black;
+        padding: 12px;
+        text-align:justify;
+        font: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font: 200;
+        font-weight: bold;
+        text-transform:capitalize;
+        margin: 10px;
+        
+        
+    }
+    fieldset{
+        border: 2px solid black;
+        
+    }
+    .form{
+        
+        height: 800px;
+        width: 400px;
+        background-color:lightgrey;
+        border-radius: 15px;
+        margin:5;
+    }
+    body{
+        margin: 20px 50px;
+        
+    }
+    h2{
+        padding: 2px;
+    }
+    .new{
+       
+        background-color: rgb(141, 235, 141);
+        width: 400;
+        text-align: center;
+        padding: 5px;
+        border-radius: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .new2{
+        width: 30px;
+    }
+    .new3{
+        height: 150;
+    }
+    </style>
+</head>
+<body> 
+    <h1>CSS FORM STYLING</h1>
+
+    <div class="form">
+    <form action="" method="post">
+        
+        enter the name
+        <input type="text" name="a" value="" placeholder="eg:john" required ><p>
+        age <input type="number" name=b value="" placeholder="age>18"><p>
+        roll no <input type="number" name=c value="" placeholder="eg:19CE8018"><p>
+        date <input type="date" name="d"><p>
+           <fieldset> <legend>gender</legend>
+            male:<input type="radio" name="B" required>
+            female:<input type="radio" name="B"required>
+         </fieldset>
+        <p>address <textarea col="5" rows="5" placeholder="flat,location,landmark"> </textarea> 
+           <p> email <input type="email" name="e" placeholder="xyz@gmail.com">    
+            <p> pincode<input type="pincode" name="f" placeholder="400705">
+                <p><img src="download.png" height="60" width="250">
+                
+                    <h2>payment information</h2>
+                    card type <select name="tt" placeholder="visa,mastercard">
+                        <option>visa</option>
+                        <option>mastercard</option>
+                    </select><p>
+                    card number <input type="number" placeholder="12 digit number"><p>
+                    expiry date <input type="date"><p>
+                    cvv <input type="text" class="new2" placeholder="123"><p>
+                    <input type="submit" class="new" value="Pay now">
+                 
+
+
+    </form>
+    
+                 
+</div>
+</body>
+</html>
+
+
+

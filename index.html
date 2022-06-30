@@ -1,0 +1,342 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <!--bootstrap style sheet include-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    .img {
+      height: 100px;
+      width: 200px;
+    }
+    .navbar{
+        background-color: rgb(167, 218, 238);
+    }
+    .nav-item:hover{
+        text-decoration: underline;
+        font-weight: bold;
+        text-transform: uppercase;
+        
+        
+    }
+    .container-fluid,.dropdown-item{
+        font-size: larger;
+        font-weight: bold;
+    }
+    #about{
+        font-size: 20px;
+    }
+   
+    .p{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+    .card{
+      margin-left: 500px;
+      margin-top: 25px;
+      
+    }
+    .row{
+      background-color: rgb(167, 218, 238);
+     
+      
+    }
+    
+    .new{
+      margin-left: 600px;
+      margin-top: 10px;
+      text-decoration:underline;
+      font-size: larger;
+      font-weight: 700;
+      letter-spacing: 1px;      
+       }
+    .skills1{
+      text-align: left;
+      font-size: 35px;
+      font-weight: bold;
+      text-decoration: underline;
+      
+    }
+    .skills2{
+      text-align: left;
+      font-size: 25px;
+      
+    }
+    .container{
+      margin-top: 20px;
+      
+      width: 1000px;      
+    }
+    .col{
+      margin-left: 30px;
+      text-align: center;
+      font-size: 50px;
+      
+    }
+    .aca{
+      font-size: 25px;
+    }
+    .btn-group{
+      margin-top: 30px;
+      margin-left: 300px;
+    }
+    .body{
+      background-image: url(https://designpress.com/wp-content/uploads/2011/05/white-backgrounds/crumpled-paper-background.jpg);
+    }
+    
+
+    
+    
+   
+  </style>
+  <body class="body">
+    
+    <!--navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="logo.png" class="img" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Achievements
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#academics">Academics Achievements</a></li>
+                <li><a class="dropdown-item" href="#Internships">Internships</a></li>
+                <li><a class="dropdown-item" href="#Certifications">Certifications</a></li>
+                <li><a class="dropdown-item" href="#Projects">Projects</a></li>
+                <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#Extra">Extra curricullar activities</a></li>
+                
+                </li>
+              </ul>
+            </li>
+            
+            
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Frontend development</a></li>
+                <li><a class="dropdown-item" href="#">Backend development</a></li>
+                
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact me</a>
+              </li>
+
+            <!--disabled item-->
+            <li class="nav-item">
+              <a class="nav-link disabled"></a>
+            </li>
+          </ul>
+          <!--
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        -->
+        </div>
+      </div>
+    </nav>
+    <!--this is about section-->
+     
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+  
+    <div id="about">
+      <p class="new">About me </p>
+        <div class="card" style="width: 18rem;">
+         
+            <img src="photo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hello, Iam Aneeket Vispute</h5>
+              <p class="card-text">Computer Science Engineer
+                Upcoming Full Stack Web Developer
+              </p>
+            
+              <a href="ANEEKET_VISPUTE_CV.pdf" class="btn btn-primary">Download CV</a>
+            </div>
+          </div>
+    </div>
+
+    <p style="text-align: center; margin-top:10px;font-size: 30px;font-weight: bold;text-decoration: underline;letter-spacing: 2px;">Skills</p>
+   <div id="skills">
+    <div class="container">
+      <div class="row">
+        <div class="col order-last">
+          JS <BR>70%<br>
+            Java, Python<br>70%
+        </div>
+        <div class="col">
+         HTML, CSS<br> 90%<br>
+         C <br>80%
+        </div>
+        <div class="col-md-5 order-first" >
+          <p class="skills1">Skills reflects our application of knowledge</p>
+          <p class="skills2">I have a good knowledge of programming knowledge such as C, Java, Python. Iam currently learning Artificial intelligence & machine learning </p>
+        </div>
+      </div>
+      <div id="academics">
+        <div class="clearfix">
+          <img src="download.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+        <p class="skills1" style="margin-top: 20px;"> Academic Achievements<p>
+          <p class="aca" style="background-color:rgb(248, 244, 244)">
+           1. Secured 10 Grade Points in Engg Physics and Chemistry-I,II<br>
+           2.Secured 10 Grade Points in Applied Mathematics - II,III,IV in semesters II, III, and IV respectively.<br>
+           3.Secured 10 Grade points in JAVA and Data Structures in semesters III.<br>
+           4.Secured 10 Grade Points in Analysis of Algorithm and Operating System in semester IV.<br>
+           5.Secured 10 Grade Pointer in Semester V.<br>
+        </p>
+        
+          
+        </div>
+      </div>
+      <p class="skills1" style="margin-top: 20px;"> Academic Achievements<p>
+      <div id="Internships">
+        <div class="clearfix">
+          <img src="download1.jpg"   class="col-md-6 float-md-start mb-3 ms-md-3" alt="...">
+        
+          <p class="aca" style="background-color:rgb(248, 244, 244)">
+            Android Developments Intern SDG-RAIT Summer Internship -2020 (06/2021 - 08/2021): Android App namely 
+            the “Social meeting Planner” App help user plan or Schedule a meeting with the advanced feature.</p>
+        
+          
+        </div>
+      </div>
+      <p class="skills1" style="margin-top: 20px;"> Certifications<p>
+      <div id="Certifications">
+        <div class="clearfix">
+          <img src="download3.png" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+        
+          <p class="aca" style="background-color:rgb(248, 244, 244)">
+            1.Certificate of compleation of web development workshop using Django Web Framework by CSI-RAIT.<br>
+            2.Completed Cyber Security training course on coursera. <br>
+            3.Certification in Applied Machine Learning in Python<br>
+            4.Certification in basics of cyber security-The basic neccessity by IETE RAIT.<br> 
+            5.Certification of summer internship of Android development.<br>
+            6.Certificate of appretiation for TECHMATE’19 for publicity and event member.<br>
+          </p>
+        
+          
+        </div>
+      </div>
+      <p class="skills1" style="margin-top: 20px;">Projects<p></p>
+      <div id="Projects">
+        <div class="clearfix">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtJY5ZthxFMVXNNslgwkIp0jctKd5Ud1PKoA&usqp=CAU" class="col-md-6 float-md-start mb-3 ms-md-3" alt="...">
+        
+          <p class="aca"style="background-color:rgb(248, 244, 244)" >
+            1.Spam sms detection using machine learning is a system that detects the spam sms using a data set and 
+            categorize into spam or ham message. This system uses content based filtering algorithm to categorize the 
+            message , 2021-2022<br>
+            2.Social Meeting Planner App is used to plan a meeting online in a pandemic situation. The user will plan a meeting 
+            with team members and notify members according to the meeting time this application is completely developed in 
+            java and PHP on the backend and android XML on the frontend,2020-21.
+          </p>
+        
+          
+        </div>
+      </div>
+      <p class="skills1" style="margin-top: 20px;">Extra-Curricular Activities<p></p>
+      <div id="Extra">
+        <div class="clearfix">
+          <img src="d.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+        
+          <p class="aca"style="background-color:rgb(248, 244, 244)">
+            1.Awarded as Most Sincere student of the year by ST. Xaviers college nerul - 2019
+             Secured First Rank in speech competition – 2017<br>
+            2.NCC- Maharashtra BEST CADET of the year Navy Division 1 mah naval unit NCC 
+            House captain for consistent 3 years and every year class monitor<br>
+            3. State level football player<br>
+            </p>
+      </div>
+      
+        <div id="Contact">
+          <div class="btn-group">
+            
+            <a href="https://www.linkedin.com/in/aneeket-vispute-5575661b1/" class="btn btn-primary">LinkedIn</a>
+            <a href="https://www.instagram.com/the_infinity_21/" class="btn btn-primary">Instagram</a>
+            <a href="https://github.com/Aneeket21" class="btn btn-primary">Github</a>
+            <a href="https://www.facebook.com/aneeket.vispute" class="btn btn-primary">facebook</a>
+            
+          </div>
+
+
+        </div>
+        
+      
+   
+
+   
+
+    <!--bootstrap js tag include-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
